@@ -2,9 +2,12 @@
  --horizontal-divider-padding: 12px;
   --vertical-divider-padding: 12px;
  --divider-weight: 1px;
- --icon-size: 15px;
+ --icon-size: 16px;
  --line-margin-left: 8px;
- --line-margin-right: 23px
+ --line-margin-right: 23px;
+ --font-size: 13.3px;
+ --title-font-size: 17px; 
+ --sup-font-size: 7px, 
 }
 
 html, body {
@@ -18,7 +21,7 @@ html, body {
  align-items: center;
 
  font-family: "Inter";
- font-size: 11.3px;
+ font-size: var(--font-size);
 
  background-color:#FDFCFA;
 }
@@ -59,7 +62,7 @@ z-index: 1;
  left: 0;
 }
 #main {
- font-size: 15px;
+ font-size: var(--title-font-size);
 }
 
 .introduction {
@@ -83,7 +86,7 @@ z-index: 1;
  position: relative;
 }
 sup {
- font-size: 7px;
+ font-size: var(--sup-font-size);
 }
 .socials {
   width: auto;
@@ -221,5 +224,6 @@ body:hover > #trailer {
   }
 
 }
+
 
 
