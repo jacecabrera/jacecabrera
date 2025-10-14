@@ -1,6 +1,6 @@
 :root {
- --horizontal-divider-padding: 10px;
-  --vertical-divider-padding: 10px;
+ --horizontal-divider-padding: 12px;
+  --vertical-divider-padding: 12px;
  --divider-weight: 1px;
  --icon-size: 15px;
  --line-margin-left: 8px;
@@ -18,7 +18,7 @@ html, body {
  align-items: center;
 
  font-family: "Inter";
- font-size: 12px;
+ font-size: 11.3px;
 
  background-color:#FDFCFA;
 }
@@ -158,7 +158,7 @@ hr {
 }
 
 .footer {
-  font-size: 7.3px;
+  font-size: 7.4px;
   text-align: center;
   position: fixed;
   bottom: 1vh;
@@ -221,3 +221,4 @@ body:hover > #trailer {
   }
 
 }
+
