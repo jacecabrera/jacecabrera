@@ -37,7 +37,7 @@ li::marker {
 }
 
 .main-container {
-width: 450px;
+width: 475px;
 
 
 z-index: 1;
@@ -158,7 +158,7 @@ hr {
 }
 
 .footer {
-  font-size: 7.5px;
+  font-size: 7.3px;
   text-align: center;
   position: fixed;
   bottom: 1vh;
@@ -219,4 +219,5 @@ body:hover > #trailer {
   .footer {
     display: none;
   }
+
 }
