@@ -95,7 +95,7 @@ sup {
 
 .list {
  width: auto;
- margin-top: 20px;
+ margin-top: 25px;
 }
 .list-item {
  display: flex;
@@ -221,4 +221,5 @@ body:hover > #trailer {
   }
 
 }
+
 
