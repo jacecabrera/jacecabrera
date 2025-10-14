@@ -1,13 +1,16 @@
 :root {
- --horizontal-divider-padding: 12px;
-  --vertical-divider-padding: 12px;
+ --horizontal-divider-padding: 13px;
+  --vertical-divider-padding: 13px;
+ --list-margin-top: 27px;
  --divider-weight: 1px;
  --icon-size: 16px;
  --line-margin-left: 8px;
  --line-margin-right: 23px;
  --font-size: 13.3px;
  --title-font-size: 17px; 
- --sup-font-size: 7px, 
+ --sup-font-size: 8px;
+
+ --container-width: 525px;
 }
 
 html, body {
@@ -40,7 +43,7 @@ li::marker {
 }
 
 .main-container {
-width: 475px;
+width: var(--container-width);
 
 
 z-index: 1;
@@ -98,7 +101,7 @@ sup {
 
 .list {
  width: auto;
- margin-top: 25px;
+ margin-top: var(--list-margin-top);
 }
 .list-item {
  display: flex;
@@ -224,6 +227,7 @@ body:hover > #trailer {
   }
 
 }
+
 
 
 
