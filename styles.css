@@ -171,6 +171,10 @@ hr {
   margin-top: 50px;
 
   color: rgba(0, 0, 0, 0.5); /* Black text, 50% transparent */
+
+ opacity: 1;
+ visibility: visible;
+ transition: opacity 500ms ease, visibility 500ms ease;
 }
 a {
  color: rgba(0, 0, 0, 0.75); /* Black text, 50% transparent */
@@ -221,12 +225,15 @@ body:hover > #trailer {
     width: 90vw;
   }
 }
-@media (max-height: 450px) {
+@media (max-height: 350px) {
   .footer {
-    display: none;
+    opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
   }
 
 }
+
 
 
 
