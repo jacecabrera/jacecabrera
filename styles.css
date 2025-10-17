@@ -221,12 +221,13 @@ body:hover > #trailer {
     width: 90vw;
   }
 }
-@media (max-height: 250px) {
+@media (max-height: 450px) {
   .footer {
     display: none;
   }
 
 }
+
 
 
 
